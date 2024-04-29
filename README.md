@@ -13,12 +13,12 @@ The objective of the project was to design and develop an interactive sales visu
 - Data Import: The project began with importing sample data into Power BI from Excel.
 
 - Visualization Creation: A variety of visualizations were created to analyze different aspects of sales and customer behavior, including:
-  - Sales distribution by branch and city using clustered column charts or map visualizations.
-  - Customer demographics analysis using pie charts or bar charts.
-  - Product line performance visualization using bar charts or line charts.
-  - Sales trends over time displayed using line charts or area charts.
-  - Payment methods analysis using pie charts or stacked column charts.
-  - Average transaction value representation using line charts.
+  - Sales distribution by branch and city using clustered column charts.
+  - Customer demographics analysis using pie charts.
+  - Product line performance visualization using bar charts.
+  - Sales trends over time displayed using line charts.
+  - Payment methods analysis using pie charts.
+  - Average transaction value representation using DAX formulae (Avg Transaction Value = 'Sales'[Total] / 'Sales'[Quantity]) and line charts. 
 
 - Interactivity: Interactive features such as cross-filtering and slicing were added to the visualizations to allow users to explore the data dynamically and gain deeper insights.
 - Dashboard Creation: The individual visualizations were arranged into a cohesive dashboard layout, providing a high-level overview of key metrics while allowing users to drill down into specific details as needed.
